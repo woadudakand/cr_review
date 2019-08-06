@@ -1,0 +1,22 @@
+body, *{	
+	padding: 0;
+	box-sizing: border-box;
+	width: 500px;	
+}
+.wrap {
+	width: 500px;
+	margin: 100px auto;
+	display: block;
+}
+.item {
+	width: 30px;
+	height: 30px;
+	border: 1px solid red;
+	border-radius: 50%;
+	padding: 5px;
+	margin: 5px;
+	float: left;
+}
+.active {
+	background: red;
+}
